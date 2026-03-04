@@ -12,7 +12,7 @@ public class exercise03 {
         Scanner scanner = new Scanner(System.in);
 
         //Yêu cầu nhập bán kính
-        System.out.printf("Vui lòng nhập bán kinh: ");
+        System.out.print("Vui lòng nhập bán kinh: ");
         radius = scanner.nextDouble();
 
         //Tính diện tích hình tròn

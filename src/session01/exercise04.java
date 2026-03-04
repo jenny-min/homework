@@ -5,13 +5,13 @@ public class exercise04 {
         //Khai báo và gán giá trị biến
         int a = 10;
         int b = 5;
-
+        // thay đổi 1 chút
         //Thực hiện các phép toán
         int sum = a + b;
         int difference = a - b;
         int product = a * b;
         int quotient = a / b;
-        int remainder = a % b;
+        double remainder = (double) a % b;
 
         //In kết quả
         System.out.printf("Giá trị a: %d\n" , a);
@@ -20,6 +20,6 @@ public class exercise04 {
         System.out.printf("Hiệu của a và b: %d\n" , difference);
         System.out.printf("Tích của a và b: %d\n" , product);
         System.out.printf("Thương của a chia cho b: %d\n" , quotient);
-        System.out.printf("Phần dư khi chia a cho b: %d\n" , remainder);
+        System.out.printf("Phần dư khi chia a cho b: %f\n" , remainder);
     }
 }

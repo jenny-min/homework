@@ -11,7 +11,7 @@ public class exercise04 {
         int difference = a - b;
         int product = a * b;
         int quotient = a / b;
-        int remainder = a%b;
+        int remainder = a % b;
 
         //In kết quả
         System.out.printf("Giá trị a: %d\n" , a);

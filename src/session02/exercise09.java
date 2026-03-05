@@ -62,7 +62,6 @@ public class exercise09 {
             temp /= 10;
         }
 
-        if (i == 0) sum = 0;
         return sum;
     }
 }

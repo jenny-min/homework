@@ -76,7 +76,7 @@ public class exercise03 {
                         } else {
                             bonus = salary * 0.25;
                         }
-//sửa
+
                         totalBonus += bonus;
                     }
                     break;

@@ -40,6 +40,7 @@ public class exercise09 {
         sc.close();
     }
 
+    //Hàm tính
     private static int getSum(int i) {
         int temp = i;
         int digits = 0;

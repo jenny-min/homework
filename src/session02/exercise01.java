@@ -8,12 +8,12 @@ public class exercise01 {
         Scanner sc = new Scanner(System.in);
 
         //yêu cầu người dùng nhập vào số nguyên
-        System.out.printf("Vui lòng nhập vào 1 số nguyên: ");
+        System.out.print("Vui lòng nhập vào 1 số nguyên: ");
         int n = sc.nextInt();
 
         //Kiểm tra có phải số chẵn hay không
         if (n == 0) {
-            System.out.printf("Số không phải chẵn cũng không phải lẻ");
+            System.out.print("Số không phải chẵn cũng không phải lẻ");
         } else if (n%2 == 0) {
             System.out.printf("Số %d là số chẵn", n);
         } else {

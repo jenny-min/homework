@@ -30,8 +30,6 @@ public class exercise04 {
         for (int value : array) {
             System.out.print(value + " ");
         }
-        System.out.println();
-
         // Đảo ngược mảng
         for (int i = 0; i < size / 2; i++) {
             // Hoán đổi phần tử
@@ -41,7 +39,7 @@ public class exercise04 {
         }
 
         // Hiển thị mảng sau khi đảo ngược
-        System.out.print("Mảng sau khi đảo ngược:");
+        System.out.print("\nMảng sau khi đảo ngược: ");
         for (int value : array) {
             System.out.print(value + " ");
         }

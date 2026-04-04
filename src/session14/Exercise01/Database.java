@@ -1,11 +1,11 @@
-package session13.Exercise01.Database;
+package session14.Exercise01;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Database {
-    private static final String url = "session13_exercise01:mysql://localhost:3306/session13_exercise01?createDatabaseIfNotExist=true&useSSL=false";
+    private static final String url = "session14:mysql://localhost:3306/session14?createDatabaseIfNotExist=true&useSSL=false";
     private static final String user = "root";
     private static final String password = "Nguyenthuy92@";
 

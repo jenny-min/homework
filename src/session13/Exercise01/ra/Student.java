@@ -1,6 +1,5 @@
 package session13.Exercise01.ra;
 
-import org.w3c.dom.ls.LSOutput;
 import java.time.LocalDate;
 
 public class Student {
